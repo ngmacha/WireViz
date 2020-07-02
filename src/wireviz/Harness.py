@@ -343,7 +343,7 @@ class Harness:
                 item['manufacturer part number'] = shared.manufacturer_part_number
             if shared.internal_part_number is not None:  # set part number only if it exists
                 item['internal part number'] = shared.internal_part_number
-			bom_cables.append(item)
+            bom_cables.append(item)
         # bundles (ignores wirecount)
         wirelist = []
         # list all cables again, since bundles are represented as wires internally, with the category='bundle' set
